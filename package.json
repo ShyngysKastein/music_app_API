@@ -1,0 +1,26 @@
+{
+  "name": "homework_79_shyngys_kastein",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.attractor-school.com:30022/mr.kasteyn/homework_79_shyngys_kastein.git"
+  },
+  "author": "SHYNGYS KASTEIN",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
